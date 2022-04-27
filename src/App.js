@@ -2,6 +2,43 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+  let arr =[10, 20, 30, 40, 50];
+  arr.map((a, i) => console.log(a));
+
+let hardik = () => {
+  console.log("hardik vaghasiya react");
+}
+hardik();
+
+// var b=10;
+// {
+//   var b=20;
+// }
+// console.log(b);
+
+
+// let b=10;
+// {
+//   let b=b+10;
+// }
+// console.log(b);
+
+
+
+// const b;
+// b=20;
+// console.log(b);
+
+
+
+
+
+
+
+
+
   return (
     <div className="App">
       <header className="App-header">
