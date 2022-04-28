@@ -84,6 +84,27 @@ let arr11 = [100, 200, 300, 400, 500, 600];
 arr11.pop();
 console.log(arr11);
 
+let arr12 = [100, 200, 300, 400, -500];
+let result6 = arr12.map(checknegative1);
+console.log(result6);
+
+function checknegative1(number){
+  return number < 0;
+}
+
+  let arr13 = [100, 200, 300, 400, -500];
+  let result7 = arr13.map(checknegative2);
+  console.log(result7);
+  
+  function checknegative2(number){
+    return number < 0;
+  }
+
+
+
+
+
+
 
 
 
